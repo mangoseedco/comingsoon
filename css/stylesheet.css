@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'sf_buttacup_lettering_shadeRg';
+  src: url('../font/sfbuttacupletteringshaded-webfont.eot');
+  src: url('../font/sfbuttacupletteringshaded-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../font/sfbuttacupletteringshaded-webfont.woff2') format('woff2'),
+       url('../font/sfbuttacupletteringshaded-webfont.woff') format('woff'),
+       url('../font/sfbuttacupletteringshaded-webfont.ttf') format('truetype'),
+       url('../font/sfbuttacupletteringshaded-webfont.svg#sf_buttacup_lettering_shadeRg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sf_buttacup_letteringregular';
+  src: url('../font/sfbuttacuplettering-webfont.eot');
+  src: url('../font/sfbuttacuplettering-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../font/sfbuttacuplettering-webfont.woff2') format('woff2'),
+       url('../font/sfbuttacuplettering-webfont.woff') format('woff'),
+       url('../font/sfbuttacuplettering-webfont.ttf') format('truetype'),
+       url('../font/sfbuttacuplettering-webfont.svg#sf_buttacup_letteringregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+    font: normal normal normal 8vw 'sf_buttacup_lettering_shadeRg', arial, sans-serif;
+    text-align: center;
+}
+
+.coming-soon {
+    font: normal normal normal 3.5vw 'sf_buttacup_letteringregular', arial, sans-serif;
+    text-align: center;
+    padding: 3vw 0 0 0;
+}
+
+.image-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 8vw;
+}
+
+.image-icon {
+  width: 6vw;
+  padding: 0 1vw;
+}
+
+.image-icon--grown {
+  width: 7vw;
+  padding: 0 0.5vw;
+}
+
+.image-icon--growing {
+  width: 7vw;
+  padding: 0 0.5vw;
+  transition-property: width, padding;
+  transition-duration: 0.5s;
+}
+
+.image-icon--shrinking {
+  width: 6vw;
+  padding: 0 1vw;
+  transition-property: width, padding;
+  transition-duration: 0.5s;
+}
