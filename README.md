@@ -1,3 +1,3 @@
 ---
-permalink: redirect.html
+permalink: index.html
 ---
